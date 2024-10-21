@@ -1,0 +1,53 @@
+/* Estilizando o fundo do AnchorPane */
+#telaFundo {
+    -fx-background-color: #f0f4f8;
+}
+
+/* Estilizando o título */
+.label-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+/* Estilizando os botões do jogo */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 2px;
+}
+
+.button:hover {
+    -fx-background-color: #388E3C;
+}
+
+/* Estilizando os botões de controle */
+#btnEstadoFinal, #btnIniciar {
+    -fx-background-color: #FF5722;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#btnEstadoFinal:hover, #btnIniciar:hover {
+    -fx-background-color: #E64A19;
+}
+
+/* Estilizando as ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #666666;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Estilizando o TextField e TextArea */
+.text-field, .text-area {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}

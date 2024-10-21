@@ -1,0 +1,48 @@
+#telaFundo {
+    -fx-background-color: #E0F7FA;
+}
+
+.label-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 2px;
+}
+
+.button:hover {
+    -fx-background-color: #388E3C;
+}
+
+#btnEstadoFinal, #btnIniciar {
+    -fx-background-color: #FF5722;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#btnEstadoFinal:hover, #btnIniciar:hover {
+    -fx-background-color: #E64A19;
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #666666;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.text-field, .text-area {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
